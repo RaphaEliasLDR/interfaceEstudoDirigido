@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=.di, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="interface01Atividade.css">
+</head>
+<body>
+    <div>
+        <h1>Exemplo Completo com html e JavaScript</h1>
+            <h2>Links</h2>
+            <p>Acesse o <a href="#">Google</a> para realizar uma pesquisa </p>
+            <p>Confira mais informações no <a href="#">Wikpedia</a></p>
+
+        <h2>Lista de Tópicos</h1>
+            <ul>
+                <li>HTML é uma linguagem de marcação</li>
+                <li>JavaScript adciona interatividade às páginas web</li>
+                <li>CSS é usado para estilizar as páginas web</li>
+            </ul>
+        
+        <h2>Lista de Tarefas</h2>
+            <ol>
+                <li>Aprender HTML</li>
+                <li>Estudar JavaScript</li>
+                <li>Praticar projetos com HTML e JS</li>
+            </ol>
+        
+        <h2>Tabela de Produtos</h2>
+                <button id="buttonAlterar">Alterar com da Tabela</button>
+            <br> <br>
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                </tr>
+                <tr>
+                    <td>Produto A</td>
+                    <td><span class="valor">R$ <span class="preco">100,00 </span> </span> </td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Produto B</td>
+                    <td><span class="valor">R$ <span class="preco">50,00 </span> </span> </td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Produto C</td>
+                    <td><span class="valor">R$ <span class="preco">200,00 </span> </span> </td>
+                    <td>5</td>
+                </tr>
+            </table>
+        
+            <h2>Formuário de Contato</h2>
+                <div class="formulario">
+                    <label for="nome">Nome:</label> 
+                        <input type="text" id="nome"></input>
+                </div>
+
+                <div class="formulario">
+                    <label for="email">E-mail:</label>
+                        <input type="text" id="email"></input>
+                </div>
+
+                <div class="formulario">
+                    <label for="comentario" id="comentario">Comentário:</label>
+                        <input type="text" id="comentario"></input>
+                </div> 
+                <br>
+                <button id="buttonEnviar">Enviar</button>
+            
+            
+            
+    </div>
+</body>
+</html>
