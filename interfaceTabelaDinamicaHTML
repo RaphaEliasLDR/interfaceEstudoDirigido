@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="interface02Atividade02.css">
+</head>
+<body>
+    <h1>Página Avançada com Tabela Dinâmica e Formulário</h1>
+
+    <h2>Links Úteis</h2>
+    <p>Acesse o <a href="#">Google</a> ou o <a href="#">Wikipedia</a></p>
+
+    <h2>Formulário de Compra</h2>
+
+    <div class="formulario">
+        <label for="nome">Nome: </label>
+            <input type="text" id="nome"></input>
+    </div>
+
+    <div class="formulario"> 
+        <label for="email">E-mail: </label>
+            <input type="text" id="email"></input>
+    </div>
+
+    <div class="formulario">
+    <label for="selecionarProduto">Selecione um Produto:</label>
+        <select id="selecionarProduto" name="produtos" placeholder="~Selecionar Produto~"> 
+            <option value="Produto A"> Produto A</option>
+            <option value="Produto B"> Produto B</option>
+            <option value="Produto C"> Produto C</option>
+        </select>
+        <button type="submit" for="selecionarProduto">Adicionar Produto</button>
+    </div>
+
+    <h2>Tabela de Compras</h2>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Produto Selecionado</th>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>professorlucas.souza01@gmail.com</td>
+            <td>Produto A</td>
+        </tr>
+    </table>
+
+    <h2>Seleção de Produtos Adcionais</h2>
+    <p>Selecione os produtos adcionais para calcular o total: </p>
+
+    <div class="produtosAdcionais">
+        <input type="checkbox" name="" id="produtoA">Produto A (R$ 50,00)</input>
+        <input type="checkbox" name="" id="produtoA">Produto B (R$ 30,00)</input>
+        <input type="checkbox" name="" id="produtoA">Produto C (R$ 20,00)</input>
+    </div>
+    
+    <h2>Total: <span class="valor">R$</span> <span class="preco"> 80,00</span></h2>
+</html>
